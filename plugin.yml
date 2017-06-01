@@ -1,0 +1,29 @@
+name: Clara
+main: com.harrand.clara.Clara
+version: 1.0
+commands:
+  gm:
+    description: Sets the gamemode of the target. Selects the user if no target is specified.
+    usage: /gm (c/s/sp/a) [target_name]
+    permission: clara.gm
+    permission-message: I cannot allow this.
+  tk:
+    description: Calls upon a one-time invocation of telekinesis.
+    usage: /tk
+    permission: clara.tk
+    permission-message: I cannot allow this.
+  al:
+    description: Calls upon a one-time invocation of absorb-life.
+    usage: /al
+    permission: clara.al
+    permission-message: I cannot allow this.
+  sb:
+    description: Spawns a boss from Clara's databanks.
+    usage: /sb (bossName)
+    permission: clara.sb
+    permission-message: I cannot allow this.
+  sw:
+    description: Spawns a weapon of legend from Clara's databanks.
+    usage: /sw (weaponName)
+    permission: clara.sw
+    permission-message: I cannot allow this.
